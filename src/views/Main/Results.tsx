@@ -4,10 +4,11 @@ import React from "react";
 export const Results = () => {
   return (
     <View style={styles.container}>
-      <Text>CalculateResult</Text>
+      <Text>Search Screen in WIP </Text>
     </View>
   );
 };
+// search view
 
 const styles = StyleSheet.create({
   container: {
