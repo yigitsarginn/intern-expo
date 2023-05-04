@@ -104,8 +104,8 @@ const BottomBarScreens = () => {
     >
       <BottomBar.Screen
         options={{
-          tabBarIcon: (props) => renderIcon("hesap", props.focused),
-          tabBarLabel: t("bottomTab.CALCULATE"),
+          tabBarIcon: (props) => renderIcon("home", props.focused),
+          tabBarLabel: t("bottomTab.HOME"),
         }}
         name="Calculate"
         component={Calculate}
@@ -113,8 +113,8 @@ const BottomBarScreens = () => {
       <BottomBar.Screen
         options={{
           lazy: true,
-          tabBarIcon: (props) => renderIcon("home", props.focused),
-          tabBarLabel: t("bottomTab.RESULTS"),
+          tabBarIcon: (props) => renderIcon("search", props.focused),
+          tabBarLabel: t("bottomTab.SEARCH"),
         }}
         name="Results"
         component={Results}
@@ -123,7 +123,7 @@ const BottomBarScreens = () => {
         options={{
           lazy: true,
           tabBarIcon: (props) => renderIcon("istatistik", props.focused),
-          tabBarLabel: t("bottomTab.STATISTICS"),
+          tabBarLabel: t("bottomTab.NETWORK"),
         }}
         name="Statistics"
         component={Statistics}
@@ -131,7 +131,7 @@ const BottomBarScreens = () => {
       <BottomBar.Screen
         options={{
           tabBarIcon: (props) => renderIcon("ayarlar", props.focused),
-          tabBarLabel: t("bottomTab.SETTINGS"),
+          tabBarLabel: t("bottomTab.PROFILE"),
         }}
         name="Settings"
         component={Settings}

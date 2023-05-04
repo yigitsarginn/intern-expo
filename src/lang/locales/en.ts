@@ -62,10 +62,10 @@ export const en = {
     },
   },
   bottomTab: {
-    CALCULATE: "Calculate",
-    RESULTS: "Results",
-    STATISTICS: "Statistics",
-    SETTINGS: "Settings",
+    HOME: "Home",
+    SEARCH: "Search",
+    NETWORK: "Network",
+    PROFILE: "Profile",
   },
   BMI: {
     SEGMENTS: {
