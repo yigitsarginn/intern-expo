@@ -4,6 +4,7 @@ import React from "react";
 export const Settings = () => {
   return (
     <View style={styles.container}>
+      {/* Profile Tab */}
       <Text>Settings</Text>
     </View>
   );
