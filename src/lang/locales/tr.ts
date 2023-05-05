@@ -62,10 +62,10 @@ export const tr = {
     },
   },
   bottomTab: {
-    CALCULATE: "Hesapla",
-    RESULTS: "Sonuçlar",
-    STATISTICS: "İstatistikler",
-    SETTINGS: "Ayarlar",
+    HOME: "Home",
+    SEARCH: "Search",
+    NETWORK: "Network",
+    PROFILE: "Profile",
   },
   BMI: {
     SEGMENTS: {
