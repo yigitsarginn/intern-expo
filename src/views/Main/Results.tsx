@@ -1,19 +1,18 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import SearchScreen from "@/components/SearchBar";
 
 export const Results = () => {
   return (
-    <View style={styles.container}>
-      <Text>Search Screen in WIP </Text>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "green",
+      }}
+    >
+      <SearchScreen />
     </View>
   );
 };
-// search view
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-});
