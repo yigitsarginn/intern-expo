@@ -5,13 +5,15 @@ import { Divider } from "@rneui/themed";
 
 export const Results = () => {
   return (
-    <SafeAreaView>
-      <View style={styles.container}>
-        <SearchScreen />
-      </View>
-    </SafeAreaView>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "green",
+      }}
+    >
+      <SearchScreen />
+    </View>
   );
 };
-const styles = StyleSheet.create({
-  container: {},
-});
