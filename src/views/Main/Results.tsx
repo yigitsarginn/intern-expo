@@ -1,19 +1,17 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, ScrollView, SafeAreaView } from "react-native";
 import React from "react";
-import SearchScreen from "@/components/SearchBar";
+import SearchScreen from "@/components/SearchBar/SearchBar";
+import { Divider } from "@rneui/themed";
 
 export const Results = () => {
   return (
-    <View style={styles.container}>
-      <SearchScreen />
-    </View>
+    <SafeAreaView>
+      <View style={styles.container}>
+        <SearchScreen />
+      </View>
+    </SafeAreaView>
   );
 };
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "flex-start",
-    backgroundColor: "#f0f0f0",
-  },
+  container: {},
 });
