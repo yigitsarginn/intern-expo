@@ -2,11 +2,11 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   box: {
-    backgroundColor: "#ffffff",
+    backgroundColor: "grey",
     borderRadius: 8,
     padding: 16,
     width: "90%",
-    height: "33%",
+    height: "55%",
     position: "absolute",
     top: 50,
     marginBottom: 10,
