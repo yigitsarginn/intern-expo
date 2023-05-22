@@ -1,32 +1,25 @@
-import { StyleSheet, Text, View, ScrollView, SafeAreaView } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import React from "react";
-import SearchScreen from "@/components/SearchBar/SearchBar";
-import { Divider } from "@rneui/themed";
+import SearchBar from "@/components/SearchBar/SearchBar";
+import SafeViewAndroid from "@/components/SafeViewAndroid";
+import Divider from "@/components/CustomDivider/CustomDivider";
 
 export const Results = () => {
   return (
-    <View style={styles.container}>
-      <View style={styles.searchContainer}>
-        <SearchScreen />
+    <SafeAreaView style={SafeViewAndroid.AndroidSafeArea}>
+      <View style={styles.container}>
+        <SearchBar />
+        <Divider />
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
+    justifyContent: "flex-start",
     alignItems: "center",
-    backgroundColor: "green",
-  },
-  searchContainer: {
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "red",
-    borderWidth: 1,
-    borderColor: "red",
-    width: "90%",
-    height: "40%",
+    backgroundColor: "orange",
   },
 });
