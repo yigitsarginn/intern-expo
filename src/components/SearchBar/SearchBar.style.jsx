@@ -2,14 +2,16 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   box: {
-    backgroundColor: "grey",
+    position: "relative",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "yellow",
     borderRadius: 8,
-    padding: 16,
+    padding: 20,
     width: "90%",
-    height: "55%",
-    position: "absolute",
-    top: 50,
-    marginBottom: 10,
+    height: 220,
+    top: 20,
+    marginBottom: 20,
   },
   input: {
     borderWidth: 1,
@@ -17,6 +19,8 @@ export default StyleSheet.create({
     borderRadius: 8,
     padding: 8,
     marginBottom: 16,
+    backgroundColor: "white",
+    width: "100%",
   },
   button: {
     backgroundColor: "#007AFF",

@@ -2,7 +2,7 @@ import { Text, TextInput, View, TouchableOpacity } from "react-native";
 import React from "react";
 import styles from "./SearchBar.style";
 
-const SearchScreen = () => {
+const SearchBar = () => {
   return (
     <View style={styles.box}>
       <TextInput
@@ -17,4 +17,4 @@ const SearchScreen = () => {
   );
 };
 
-export default SearchScreen;
+export default SearchBar;
