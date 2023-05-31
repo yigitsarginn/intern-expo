@@ -1,15 +1,26 @@
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, FlatList } from "react-native";
 import React from "react";
 import SearchBar from "@/components/SearchBar/SearchBar";
 import SafeViewAndroid from "@/components/SafeViewAndroid";
 import Divider from "@/components/CustomDivider/CustomDivider";
+import tempData from "../../Data/tempRecommenden.json";
+import JobPost from "@/components/JobPost/JobPost";
+import CustomColors from "@/style/colors";
 
 export const Results = () => {
+  const renderItem = ({ item }) => <JobPost item={item} />;
+
   return (
     <SafeAreaView style={SafeViewAndroid.AndroidSafeArea}>
       <View style={styles.container}>
         <SearchBar />
         <Divider />
+        <Text style={styles.recInt}>Recommended Internships</Text>
+        <FlatList
+          data={tempData}
+          renderItem={renderItem}
+          keyExtractor={(item) => item.id.toString()}
+        />
       </View>
     </SafeAreaView>
   );
@@ -20,6 +31,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "flex-start",
     alignItems: "center",
-    backgroundColor: "orange",
+    backgroundColor: CustomColors.Dark10,
+  },
+  recInt: {
+    alignSelf: "flex-start",
+    marginLeft: 20,
+    fontWeight: "bold",
+    fontSize: 20,
+    color: CustomColors.LogoBlue,
   },
 });
