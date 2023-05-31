@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "internship_name": "Software Development Intern",
+    "internship_location": "San Francisco, CA",
+    "industry": "Technology",
+    "post_time": "2023-05-01"
+  },
+  {
+    "id": 2,
+    "internship_name": "Marketing Intern",
+    "internship_location": "New York, NY",
+    "industry": "Marketing",
+    "post_time": "2023-05-02"
+  },
+  {
+    "id": 3,
+    "internship_name": "Data Science Intern",
+    "internship_location": "Seattle, WA",
+    "industry": "Data Science",
+    "post_time": "2023-05-03"
+  },
+  {
+    "id": 4,
+    "internship_name": "Graphic Design Intern",
+    "internship_location": "Los Angeles, CA",
+    "industry": "Design",
+    "post_time": "2023-05-04"
+  },
+  {
+    "id": 5,
+    "internship_name": "Finance Intern",
+    "internship_location": "Chicago, IL",
+    "industry": "Finance",
+    "post_time": "2023-05-05"
+  },
+  {
+    "id": 6,
+    "internship_name": "Human Resources Intern",
+    "internship_location": "Austin, TX",
+    "industry": "Human Resources",
+    "post_time": "2023-05-06"
+  },
+  {
+    "id": 7,
+    "internship_name": "Sales Intern",
+    "internship_location": "Boston, MA",
+    "industry": "Sales",
+    "post_time": "2023-05-07"
+  },
+  {
+    "id": 8,
+    "internship_name": "Journalism Intern",
+    "internship_location": "Washington, D.C.",
+    "industry": "Media",
+    "post_time": "2023-05-08"
+  },
+  {
+    "id": 9,
+    "internship_name": "Engineering Intern",
+    "internship_location": "San Diego, CA",
+    "industry": "Engineering",
+    "post_time": "2023-05-09"
+  },
+  {
+    "id": 10,
+    "internship_name": "Public Relations Intern",
+    "internship_location": "Miami, FL",
+    "industry": "Public Relations",
+    "post_time": "2023-05-10"
+  }
+]
