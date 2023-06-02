@@ -16,11 +16,13 @@ export const Results = () => {
         <SearchBar />
         <Divider />
         <Text style={styles.recInt}>Recommended Internships</Text>
-        <FlatList
-          data={tempData}
-          renderItem={renderItem}
-          keyExtractor={(item) => item.id.toString()}
-        />
+        <View style={styles.RecContainer}>
+          <FlatList
+            data={tempData}
+            renderItem={renderItem}
+            keyExtractor={(item) => item.id.toString()}
+          />
+        </View>
       </View>
     </SafeAreaView>
   );
@@ -29,15 +31,23 @@ export const Results = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "flex-start",
+    justifyContent: "center",
     alignItems: "center",
     backgroundColor: CustomColors.Dark10,
   },
   recInt: {
-    alignSelf: "flex-start",
-    marginLeft: 20,
+    alignContent: "center",
+    justifyContent: "center",
+    marginHorizontal: 20,
     fontWeight: "bold",
     fontSize: 20,
     color: CustomColors.LogoBlue,
+  },
+  RecContainer: {
+    flex: 1,
+    paddingVertical: 5,
+    width: "100%",
+    backgroundColor: "orange",
+    alignItems: "center",
   },
 });
