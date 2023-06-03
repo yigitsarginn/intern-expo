@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 100,
-    paddingVertical: 20,
+    paddingVertical: 5,
   },
   primary: {
     backgroundColor: Colors.Dark,

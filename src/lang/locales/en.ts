@@ -1,4 +1,11 @@
 export const en = {
+  lorem_short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  karabuk_uni: "Karabuk University",
+  comp_eng: "Computer Engineering",
+  lorem_long:
+    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque recusandae a ratione eaque aliquam, iure animi tempore inventore autem minus tenetur sunt officia exercitationem repellendus labore quos enim illo esse.",
+  lorem_mid:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   kg: "kg",
   cm: "cm",
   lb: "lb",

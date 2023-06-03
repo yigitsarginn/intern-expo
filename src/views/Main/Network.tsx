@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-export const Calculate = () => {
+export const Statistics = () => {
   return (
     <View style={styles.container}>
-      <Text>CalculateResult</Text>
+      <Text>Network</Text>
     </View>
   );
 };

@@ -1,11 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-export const Settings = () => {
+export const Calculate = () => {
   return (
     <View style={styles.container}>
-      {/* Profile Tab */}
-      <Text>Settings</Text>
+      <Text>Home</Text>
     </View>
   );
 };

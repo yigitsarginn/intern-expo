@@ -4,7 +4,6 @@ import { Button } from "@/components/Button";
 import { Text } from "@/components/Text";
 import { useNavigation } from "@react-navigation/native";
 import { Icon } from "@/components/Icon";
-import IcoMoon from "react-icomoon";
 
 export const WalkthroughFirst = () => {
   const navigation = useNavigation();

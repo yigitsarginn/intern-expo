@@ -4,7 +4,7 @@ import React from "react";
 export const Results = () => {
   return (
     <View style={styles.container}>
-      <Text>CalculateResult</Text>
+      <Text>Search</Text>
     </View>
   );
 };
